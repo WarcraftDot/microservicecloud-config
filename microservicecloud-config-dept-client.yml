@@ -1,4 +1,3 @@
----
 spring:
   profiles:
     active:
@@ -24,7 +23,7 @@ spring:
       max-wait-millis: 200
 
 mybatis:
-  config-location: classpath:mybatis/mybatis.cjg.xml
+  config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.yt.springcloud.entities
   mapper-locations:
     - classpath:mybatis/mapper/**/*.xml
@@ -38,7 +37,7 @@ eureka:
     
 info: 
   app.name: yt-microservicecloud-springcloudfig01
-  company.name: www.yt.com
+  company.name: yt
   build.artifacId: $project.artifactId$
   build.version: $project.version$
 
@@ -63,7 +62,7 @@ spring:
       max-wait-millis: 200
 
 mybatis:
-  config-location: classpath:mybatis/mybatis.cjg.xml
+  config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.yt.springcloud.entities
   mapper-locations:
     - classpath:mybatis/mapper/**/*.xml
@@ -77,6 +76,6 @@ eureka:
     
 info: 
   app.name: yt-microservicecloud-springcloudfig01
-  company.name: www.yt.com
+  company.name: yt
   build.artifacId: $project.artifactId$
   build.version: $project.version$
